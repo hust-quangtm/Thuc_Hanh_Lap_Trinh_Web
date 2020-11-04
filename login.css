@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Oxygen', sans-serif;
+    letter-spacing: 1px;
+}
+
+body .login{
+    border: solid 1px black;
+    border-radius: 25px;
+    background-color: #F8F8F8	;
+}
+
+.login_form h1{
+    font-size: 40px;
+  font-weight: bold;
+}
+
+.login_form .userName input{
+    border: solid 1px black;
+    background-image: url("image/email.jpg");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 30px 30px;
+   border-radius: 5px;
+   width: 260px;
+   height: 30px;
+   background-color: #DCDCDC;
+}
+
+.login_form .password input{
+    border: solid 1px black;
+    background-image: url("image/password.png");
+    background-repeat: no-repeat;
+    background-position: 0px;
+    background-size: 30px 30px;
+   border-radius: 5px;
+   width: 260px;
+   background-color: #DCDCDC;
+}
+
+.button-login {
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 60px;
+    border-radius: 10px;
+   
+    background: linear-gradient(to right, #fc00ff, #00dbde);
+    color: white;
+    border: #22647D solid 1px;
+}
+
+a{
+     color:  #2D83F3;
+     font-size: 15px;
+    
+ }
+
+ .login_form a:hover, .button-login:hover{
+ color: #48D1CC;
+ font-weight: bold;
+ text-decoration: none;
+}
+
+.login-end{
+    color:  #D3D3D3;
+}
+
+.login-facebook , .login-email {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.login-facebook{
+    background-color: #008bf6;
+}
+
+.login-email{
+  background-color: #fd0000;
+}
+
+.login-end a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
