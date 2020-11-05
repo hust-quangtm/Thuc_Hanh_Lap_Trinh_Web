@@ -39,22 +39,22 @@
   .check .city-price-container :hover {
     color: yellow; }
 
-.lorem .section-title {
+.lorem .section-title, .popular-package .section-title {
   text-align: center;
   text-transform: uppercase;
   font-size: 36px;
   font-weight: lighter; }
-.lorem .card .card-title {
+.lorem .card .card-title, .popular-package .card .card-title {
   font-size: 15px;
   padding: 30px 25px;
   text-transform: uppercase; }
-.lorem .card .text-muted {
+.lorem .card .text-muted, .popular-package .card .text-muted {
   color: #c3c3c3;
   padding: 10px 25px;
   text-transform: uppercase; }
-.lorem .card .icon {
+.lorem .card .icon, .popular-package .card .icon {
   color: #000000; }
-  .lorem .card .icon :hover {
+  .lorem .card .icon :hover, .popular-package .card .icon :hover {
     color: #FCDD44; }
 
 .popular-package .section-title {
@@ -62,5 +62,7 @@
   text-transform: uppercase;
   font-size: 36px;
   font-weight: lighter; }
+.popular-package .card-title {
+  font-size: 30px; }
 
 /*# sourceMappingURL=style.css.map */
